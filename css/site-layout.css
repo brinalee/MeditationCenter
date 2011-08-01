@@ -2,19 +2,20 @@ html
 {
     font-family: MuseoSans500, 'Lucida Grande', Lucida, Verdana, sans-serif;
     font-size: 15px;
-    background: #d9d9d9; /* Old browsers */
-    background: -moz-linear-gradient(left, #d9d9d9 0%, #84aace 50%, #d9d9d9 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d9d9d9), color-stop(50%,#84aace), color-stop(100%,#d9d9d9)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left, #d9d9d9 0%,#84aace 50%,#d9d9d9 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left, #d9d9d9 0%,#84aace 50%,#d9d9d9 100%); /* Opera11.10+ */
-    background: -ms-linear-gradient(left, #d9d9d9 0%,#84aace 50%,#d9d9d9 100%); /* IE10+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#d9d9d9',GradientType=1 ); /* IE6-9 */
-    background: linear-gradient(left, #d9d9d9 0%,#84aace 50%,#d9d9d9 100%); /* W3C */
+    background-color: #d9d9d9;
+    padding: 0px;
+    margin: 0px;
+}
+
+body 
+{
+    margin: 0px;
 }
 
 h1
 {
     font-size: 40px;
+    line-height: 40px;
 }
 
 #header
@@ -27,13 +28,29 @@ h1
     border-right: 50px solid #FFF;
     border-left: 50px solid #FFF;
     width: 900px;
-    margin: 0px auto -4em;
+    margin: 0px auto;
     background-color: #FFF;
+    padding-top: 1px;
+    height: 100%;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 #main-body
 {
     padding: 10px 0px;   
+}
+
+#main-body img
+{
+    float: left;
+    border: 10px solid #E6E6E6;
+    display: inline;
+    margin: 0px 50px 25px 0px;
 }
 
 #main-nav ul
@@ -71,4 +88,20 @@ h1
 #main-nav ul li a:hover
 {
     background-color: #0F3056;
+}
+
+#footer
+{
+    clear: both;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #E6E6E6;
+    margin: 0px 0px 25px 0px;
+    text-align: center;
+    color: #808080;
+    text-shadow: 0px 1px 1px #fff;
 }

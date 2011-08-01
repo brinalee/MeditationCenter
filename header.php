@@ -18,12 +18,12 @@
                         <nav>
                             <div id="main-nav">
                                 <ul>
-				    <li><a href="../">home</a></li>
-				    <li><a href="../about.php">about</a></li>
-				    <li><a href="../donations.php">donations</a></li>
-				    <li><a href="../services.php">services</a></li>
-				    <li><a href="../events.php">events</a></li>
-                                    <li><a href="../contact.php">contact</a></li>
+				    <li><a href="./">home</a></li>
+				    <li><a href="about.php">about</a></li>
+				    <li><a href="donations.php">donations</a></li>
+				    <li><a href="services.php">services</a></li>
+				    <li><a href="events.php">events</a></li>
+                                    <li><a href="contact.php">contact</a></li>
 				</ul>
                             </div>
                         </nav>
