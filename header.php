@@ -3,7 +3,7 @@
     <head>
         <title>Mediation Center</title>
         <link rel="shortcut icon" href="images/favicon.ico" >
-        <link href="css/site_layout.css" rel="stylesheet" type="text/css" />
+        <link href="css/site-layout.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <section>
@@ -12,6 +12,9 @@
                     <div id="header">
                         <div id="logo">
                         </div>
+			<header>
+			    <h1>Meditation Center</h1>
+			</header>
                         <nav>
                             <div id="main-nav">
                                 <ul>
